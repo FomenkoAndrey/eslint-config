@@ -83,8 +83,8 @@ module.exports = {
             "error",
             "beside"
         ],
-        "indent": "error",
-        "indent-legacy": "error",
+        "indent": ["error", 2, { "SwitchCase": 1 }],
+        "indent-legacy": ["error", 2, { "SwitchCase": 1 }],
         "init-declarations": "error",
         "jsx-quotes": "error",
         "key-spacing": "error",

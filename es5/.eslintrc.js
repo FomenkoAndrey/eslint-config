@@ -80,7 +80,7 @@ module.exports = {
             "error",
             "beside"
         ],
-        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "indent": ["error", 2, { "SwitchCase": 1 }],
         "indent-legacy": 0,
         "init-declarations": 0,
         "jsx-quotes": "error",
